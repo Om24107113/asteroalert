@@ -1,0 +1,36 @@
+astreoalert
+├── frontend
+│   ├── src
+│   │   ├── components
+│   │   │   ├── ui
+│   │   │   ├── layout
+│   │   │   │   ├── Navbar.tsx
+│   │   │   │   └── Sidebar.tsx
+│   │   │   └── debris
+│   │   ├── hooks
+│   │   │   └── useDebrisData.ts
+│   │   ├── types
+│   │   │   └── index.ts
+│   │   ├── utils
+│   │   │   └── index.ts
+│   │   ├── pages
+│   │   │   ├── dashboard
+│   │   │   └── alerts
+│   │   ├── app.tsx
+│   │   └── main.tsx
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── tsconfig.json
+├── backend
+│   ├── src
+│   │   ├── api
+│   │   │   └── routes.py
+│   │   ├── models
+│   │   │   └── debris.py
+│   │   ├── services
+│   │   │   └── prediction.py
+│   │   └── main.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── docker-compose.yml
+└── README.md
